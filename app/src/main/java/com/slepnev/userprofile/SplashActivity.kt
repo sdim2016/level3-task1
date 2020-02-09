@@ -14,7 +14,7 @@ class SplashActivity : AppCompatActivity() {
         Handler().postDelayed({
             startActivity(
                 Intent(
-                    this@SplashActivity, CreateProfileActivtiy::java
+                    this@SplashActivity, CreateProfileActivity::class.java
                 )
             )
             finish()
